@@ -1,4 +1,4 @@
-# Brainstorm
+# Brainstiorm
 1. Player can use analog sticks on gamepad to emulate arcade joysticks.
 2. We want to come up with a mouse and keyboard control scheme for players without gamepads!
 3. Could work as a mobile game? What would the controls?
