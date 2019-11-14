@@ -1,5 +1,5 @@
 # Game Idea
-My game Idea for Ice Cold Beer is 
+My game Idea for Ice Cold Beer is that you are an explore trying to escape a Jungle.
 ## The Ball 
 - An explorer who is trying to escape out of a jungle https://www.dropbox.com/s/niq34tj4x4vdowr/GIF.gif?raw=1
 ## The Background and walls
