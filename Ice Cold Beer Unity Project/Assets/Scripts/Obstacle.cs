@@ -19,5 +19,6 @@ public class Obstacle : MonoBehaviour
         gameOverText.SetActive(true);
         audioSource.Play();
         Debug.Log("Has touched the obstacle");
+        GameOver.IsGameOver = true;
     }
 }
