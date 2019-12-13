@@ -10,15 +10,21 @@ public class Obstacle : MonoBehaviour
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();   
+        audioSource = GetComponent<AudioSource>();
+        GameOver.IsGameOver = false;
     }
 
     
     private void OnTriggerEnter2D(Collider2D collison)
     {
-        gameOverText.SetActive(true);
-        audioSource.Play();
-        Debug.Log("Has touched the obstacle");
-        GameOver.IsGameOver = true;
+        if (collison.CompareTag("Player"))
+        {
+            gameOverText.SetActive(true);
+            audioSource.Play();
+            Debug.Log("Has touched the obstacle");
+            GameOver.IsGameOver = true;
+            Time.timeScale = 0;
+        }
+        
     }
 }

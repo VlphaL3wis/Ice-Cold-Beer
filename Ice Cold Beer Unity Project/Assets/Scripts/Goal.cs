@@ -13,6 +13,7 @@ public class Goal : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        
 
     }
 
@@ -26,6 +27,7 @@ public class Goal : MonoBehaviour
 
             audioSource.Play();
             Debug.Log("Entered goal!");
+            Time.timeScale = 0;
         }
     }
 }
